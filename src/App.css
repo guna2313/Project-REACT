@@ -1,0 +1,11 @@
+.App {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align: center;
+  width:100vw;
+  height:100vh;
+  background:url('./images/imageone.jpg');
+  background-size:cover;
+  font-size: 50px;
+}
