@@ -1,0 +1,124 @@
+/* App.css */
+
+.information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+  width: 400px;
+  height: 400px;
+  background-color: #D3D3D3;
+  border-radius: 10px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 68px;
+  width: 50%;
+}
+
+label {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+input {
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0px;
+  width: 100%;
+  font-size: 16px;
+}
+
+button[type="submit"] {
+  background: linear-gradient(135deg, #6c5ce7, #d14db8);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  
+  margin-bottom: 30px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.employees {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+button {
+  background: linear-gradient(135deg, #6c5ce7, #d14db8);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 0px 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.employee-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  width: 500px;
+  background-color: #D3D3D3;
+  border-radius: 10px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  padding: 20px;
+}
+
+.employee-card p {
+  font-size: 18px;
+  margin: 10px 0px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.buttons button {
+  margin: 0px 10px;
+}
+
+.edit-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  width: 500px;
+  background-color: #D3D3D3;
+  border-radius: 10px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  padding: 20px;
+}
+
+.edit-form input {
+  margin: 10px 0px;
+}
+
+.edit-form button {
+  margin-top: 20px;
+  background: linear-gradient(135deg, #6c5ce7, #d14db8);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
